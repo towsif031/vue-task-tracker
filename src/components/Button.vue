@@ -10,7 +10,7 @@ export default {
 	props: ['text', 'color'],
 	methods: {
 		onClink() {
-			console.log('Clicked');
+			this.$emit('btn-click');
 		}
 	}
 };
