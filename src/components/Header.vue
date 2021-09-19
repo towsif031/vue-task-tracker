@@ -15,7 +15,7 @@ export default {
 };
 </script>
 
-<style scope>
+<style scoped>
 header {
 	display: flex;
 	justify-content: space-between;
